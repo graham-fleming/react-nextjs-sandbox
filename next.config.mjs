@@ -2,12 +2,12 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  basePath: '/react-nextjs-sandbox',
+  basePath: '/',
   async redirects() {
     return [
       {
         source: '/',
-        destination: '/react-nextjs-sandbox',
+        destination: '/',
         basePath: false,
         permanent: false,
       },
